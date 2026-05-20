@@ -17,8 +17,6 @@ spec:
     spec:
       containers:
         - name: simple-api
-          image: hashicorp/http-echo:1.0.0
-          args:
-            - "-text=hola desde argo cd"
+          image: javieresquivel123/pruebaargo:v1.0
           ports:
-            - containerPort: 5678
+            - containerPort: 8000

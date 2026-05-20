@@ -8,6 +8,6 @@ spec:
     app: simple-api
   ports:
     - port: 80
-      targetPort: 5678
+      targetPort: 8000
       protocol: TCP
   type: ClusterIP
